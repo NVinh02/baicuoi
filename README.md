@@ -1,6 +1,6 @@
 ## Welcome to baicoui Respository. this repo offers various code that you learn in the past months that can remind you.
 
-### You can find in this repo the following stuff:
+### _You can find in this repo the following stuff_:
 
 * .gitignore itself to demonstrate how Git tool will upload a file or not
 * README.md itself show the desciption of the repo
