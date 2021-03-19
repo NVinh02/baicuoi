@@ -7,7 +7,7 @@
 * All of the methods to support your projects, e.g. getFactorial(), sin(), cos()
 
 ### Connect via me:
-[My facebook] (Https://facebook.com)
-[My email] (nguyncvinh129@gmail.com)
+[My facebook](Https://facebook.com)
+[My email](nguyncvinh129@gmail.com)
 
 © 2021 NVinh02
