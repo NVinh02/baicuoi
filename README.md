@@ -1,5 +1,7 @@
 ## Welcome to baicoui Respository. this repo offers various code that you learn in the past months that can remind you.
 
+[![baicuoi | Demo | © 2021 vinhnd02](https://github.com/NVinh02/baicuoi/actions/workflows/baicuoi.yml/badge.svg)](https://github.com/NVinh02/baicuoi/actions/workflows/baicuoi.yml)
+
 ### _You can find in this repo the following stuff_:
 
 * .gitignore itself to demonstrate how Git tool will upload a file or not
