@@ -30,7 +30,7 @@ public class MathUtility {
             return 1;
         
         //đến đc đây thì sure kèo n = 0..20
-        long result = 0;//cố tình để value này
+        long result = 1;//cố tình để value này
         
         for (int i = 2; i<=n;i++)
             result*=i;
