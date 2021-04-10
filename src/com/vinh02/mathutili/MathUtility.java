@@ -23,19 +23,23 @@ public class MathUtility {
     //0! = 1! = 1
     public static long getFactorial(int n){
         if (n < 0 || n > 20)
-            throw new IllegalArgumentException("Invalid argument n must be"
+            throw new IllegalArgumentException("Invalid argument number must be"
                     + " between 0..20");
         
         if (n == 0 || n == 1)//khỏi mắc công tính, return ngay
             return 1;
         
+        //Đây là cách tính dùng for
         //đến đc đây thì sure kèo n = 0..20
-        long result = 1;//cố tình để value này
-        
-        for (int i = 2; i<=n;i++)
-            result*=i;
-        //n! = 1.2.3.4...n
-        return result;
+//        long result = 1;//cố tình để value này
+//        
+//        for (int i = 2; i<=n;i++)
+//            result*=i;
+//        //n! = 1.2.3.4...n
+//        return result;
+
+        //Đây là cách tính dùng đệ quy
+        return n * getFactorial(n - 1); //Xong đệ quy
     }
     
     

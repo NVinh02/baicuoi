@@ -18,20 +18,25 @@ public class main {
      */
     public static void main(String[] args) {
         //tui muốn test 5! có đúng 120 ko?
-        int n = 5; //n!
-        long expected = 120;//hy vọng 120 trả về
-        long actual = MathUtility.getFactorial(n);//thực tế hàm chạy là mấy vậy
-        //mình chạy đẻ bk đúng sai???
-        System.out.println("5! expected: " + expected
-                + "; actual: " + actual);// kết quả trả về
+        //Test dùng cho đệ quy
+        long result = MathUtility.getFactorial(5);
+        System.out.println("5! = " + result);
         
-        //tui muốn test 0 giai thừa có đúng là 1
-        n = 1; //n!
-        expected = 1;//hy vọng 120 trả về
-        actual = MathUtility.getFactorial(n);//thực tế hàm chạy là mấy vậy
-        //mình chạy đẻ bk đúng sai???
-        System.out.println("5! expected: " + expected
-                + "; actual: " + actual);// kết quả trả về
+        //Đây là cách tính dùng for + note rất nhìu thứ khác
+//        int n = 5; //n!
+//        long expected = 120;//hy vọng 120 trả về
+//        long actual = MathUtility.getFactorial(n);//thực tế hàm chạy là mấy vậy
+//        //mình chạy đẻ bk đúng sai???
+//        System.out.println("5! expected: " + expected
+//                + "; actual: " + actual);// kết quả trả về
+//        
+//        //tui muốn test 0 giai thừa có đúng là 1
+//        n = 1; //n!
+//        expected = 1;//hy vọng 120 trả về
+//        actual = MathUtility.getFactorial(n);//thực tế hàm chạy là mấy vậy
+//        //mình chạy đẻ bk đúng sai???
+//        System.out.println("5! expected: " + expected
+//                + "; actual: " + actual);// kết quả trả về
     }
 
 }
