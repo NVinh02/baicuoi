@@ -10,6 +10,5 @@ package com.vinh02.mathutili;
  * @author Admin
  */
 public class Nothing {
-    String my;
-    int l;
+    
 }
